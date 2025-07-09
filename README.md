@@ -2,8 +2,8 @@
 
 This is a Flask-based web application that recommends books based on a selected title. It uses collaborative filtering and precomputed similarity scores to suggest books that are most similar to the one chosen by the user.
 
-![App Preview](https://book-recommender-system-gak9.onrender.com) <!-- Optional: Add a screenshot or demo gif -->
-
+🚀 Live Demo
+🌐 https://book-recommender-system-gak9.onrender.com
 ---
 
 ## 🚀 Features
@@ -27,9 +27,26 @@ This is a Flask-based web application that recommends books based on a selected 
 ---
 markdown
 
+
+
 ### 📂 Project Structure
 
-<pre> ```plaintext Book-Recommender-System/ │ ├── app.py # Main Flask application ├── requirements.txt # Python dependencies ├── Procfile # Deployment file for Render ├── popular.pkl # Top 50 books data ├── books.pkl # Books metadata ├── pt.pkl # Pivot table for similarity ├── similarity_score.pkl # Precomputed similarity scores │ └── templates/ # HTML templates ├── index.html # Homepage └── recommend.html # Recommendation UI ``` </pre>
+```plaintext
+Book-Recommender-System/
+│
+├── app.py                 # Main Flask application
+├── requirements.txt       # Python dependencies
+├── Procfile               # Deployment file for Render
+├── popular.pkl            # Top 50 books data
+├── books.pkl              # Books metadata
+├── pt.pkl                 # Pivot table for similarity
+├── similarity_score.pkl   # Precomputed similarity scores
+│
+└── templates/             # HTML templates
+    ├── index.html         # Homepage
+    └── recommend.html     # Recommendation UI
+```
+
 
 ## 🧪 How It Works
 
