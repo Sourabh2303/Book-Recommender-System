@@ -28,17 +28,20 @@ This is a Flask-based web application that recommends books based on a selected 
 
 ## 📂 Project Structure
 
-📁 Book-Recommender-System/
+Book-Recommender-System/
+│
 ├── app.py # Main Flask application
 ├── requirements.txt # Python dependencies
-├── Procfile # For deployment (used by Render)
+├── Procfile # Deployment file for Render
 ├── popular.pkl # Top 50 books data
 ├── books.pkl # Books metadata
 ├── pt.pkl # Pivot table for similarity
 ├── similarity_score.pkl # Precomputed similarity scores
-├── templates/
-│ ├── index.html # Homepage
-│ └── recommend.html # Recommendation UI
+│
+└── templates/ # HTML templates
+├── index.html # Homepage
+└── recommend.html # Recommendation UI
+
 
 
 ---
